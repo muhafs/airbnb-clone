@@ -1,0 +1,65 @@
+.card {
+	width: 175px;
+	flex: 0 0 auto; /* ADD */
+	display: flex; /* ADD */
+	flex-direction: column; /* ADD */
+	position: relative;
+}
+
+.card--image {
+	width: 100%;
+	border-radius: 9px;
+}
+
+.card--rating {
+	margin-top: 8px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 4px;
+}
+
+.card--rating_star {
+	height: 14px;
+	width: 14px;
+}
+
+.card--rating_number {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.card--rating_number span {
+	font-weight: 300;
+	color: #918e9b;
+}
+
+.card--title {
+	margin-top: 8px;
+	font-size: 12px;
+	font-weight: 300;
+	color: #222222;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card--price {
+	font-size: 12px;
+	margin-top: 8px;
+	font-weight: 600;
+	margin-top: auto;
+}
+
+.card--price span {
+	font-weight: 300;
+}
+
+.card--badge {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	background-color: #fff;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-weight: 600;
+}
